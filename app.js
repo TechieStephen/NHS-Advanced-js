@@ -1,9 +1,7 @@
-import obj from './modules.js'
-import { Person ,printName, printAge } from './modules.js'
+import Person from './modules.js'
+import { printName as pn, printAge } from './modules.js'
 
-const gif = new Person('gift', 35, 9)
+const gift = new Person('gift', 35, 9)
 
-console.log(obj)
-
-printAge(gif)
-printName(gif)
+printAge(gift)
+printName(gift)
