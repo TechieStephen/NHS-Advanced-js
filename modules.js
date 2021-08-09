@@ -17,3 +17,8 @@ function printAge(person){
 function printHeight(person){
     console.log(person.height)
 }
+
+const accountPin = 1111
+
+export default accountPin
+export {Person,printName, printAge}
